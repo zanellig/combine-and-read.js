@@ -2,23 +2,7 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 const Tesseract = require('tesseract.js');
-
-const TIENDAS = [
-  '5001',
-  '5012',
-  '5014',
-  '5017',
-  '5018',
-  '5019',
-  '5021',
-  '5022',
-  '5023',
-  '7011',
-  '7012',
-  '7014',
-  '7016',
-  '7021',
-];
+const TIENDAS = require('./tiendas.js');
 
 main().catch(console.error);
 
