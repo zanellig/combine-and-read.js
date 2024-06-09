@@ -65,7 +65,10 @@ async function processImage(filePath) {
     console.log(`Processing image ${filePath}`);
 
     const result = await Tesseract.recognize(filePath, 'eng', {
-      logger: m => console.log(m),
+      logger: m => m,
+      tessedit_pageseg_mode: Tesseract.PSM.SINGLE_BLOCK,
+      tessedit_char_whitelist:
+        '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ',
     });
 
     // Assuming the extracted text is in the format 'ID Name'
