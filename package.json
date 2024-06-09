@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node src/index.js"
+  },
   "dependencies": {
     "tesseract.js": "^5.1.0"
   }
