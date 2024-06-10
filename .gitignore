@@ -207,3 +207,19 @@ public/images/7021/*
 !public/images/7014/
 !public/images/7016/
 !public/images/7021/
+
+# No ignorar el archivo .keep en cada directorio, si existe
+!public/images/5001/.keep
+!public/images/5012/.keep
+!public/images/5014/.keep
+!public/images/5017/.keep
+!public/images/5018/.keep
+!public/images/5019/.keep
+!public/images/5021/.keep
+!public/images/5022/.keep
+!public/images/5023/.keep
+!public/images/7011/.keep
+!public/images/7012/.keep
+!public/images/7014/.keep
+!public/images/7016/.keep
+!public/images/7021/.keep
