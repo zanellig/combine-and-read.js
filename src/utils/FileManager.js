@@ -4,7 +4,10 @@ const ImageProcessor = require('./ImageProcessor');
 
 class FileManager {
   static async readFile(folderPath) {
-    const combinedImagePath = path.join(folderPath, 'combined_image.png');
+    const combinedImagePath = path.join(
+      folderPath,
+      'grayscale_combined_image.png'
+    );
     if (!fs.existsSync(combinedImagePath)) {
       console.error(
         'The combined image file does not exist:',

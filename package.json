@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "start": "node src/index.js",
-    "csv": "node src/csv.js"
+    "ocr": "node src/index.js",
+    "csv": "node src/csv.js",
+    "start": "node src/index.js && node src/csv.js"
   },
   "dependencies": {
     "tesseract.js": "^5.1.0"

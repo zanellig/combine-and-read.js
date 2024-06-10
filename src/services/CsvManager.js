@@ -49,14 +49,14 @@ class CsvManager {
 
   async processFile(filePath, tienda) {
     const data = fs.readFileSync(filePath, 'utf8');
-    const lines = data.split('\n').filter(line => line.trim() !== '');
+    const lines = data
+      .toUpperCase()
+      .split('\n')
+      .filter(line => line.trim() !== '');
 
     for (const line of lines) {
-      const id = (
-        line[3] === ' ' ? line.substring(0, 3) : line.substring(0, 4)
-      ).trim();
-      const name = line.substring(id.length).trim();
-      const persona = new Persona(tienda, id, name);
+      const [id, name] = line.split('\t');
+      const persona = new Persona(tienda, id?.trim(), name?.trim());
       this.appendToFile(persona.toCsvString());
     }
   }

@@ -1,6 +1,6 @@
 import os
 import sys
-from PIL import Image
+from PIL import Image, ImageOps
 
 def main():
     if len(sys.argv) != 2:
@@ -59,9 +59,13 @@ def main():
 
     # Guardar la imagen combinada en el directorio 'combined'
     output_path = os.path.join(combined_dir, 'combined_image.png')
+    grayscale_output_path = os.path.join(combined_dir, 'grayscale_combined_image.png')
+    grayscale_combined_image = ImageOps.grayscale(combined_image)
     combined_image.save(output_path)
+    grayscale_combined_image.save(grayscale_output_path)
 
     print(f'Imagen combinada guardada en: {output_path}')
+    print(f'Imagen grayscale_output_path guardada en: {grayscale_output_path}')
 
 if __name__ == "__main__":
     main()
