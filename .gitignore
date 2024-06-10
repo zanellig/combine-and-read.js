@@ -175,4 +175,35 @@ dist
 .DS_Store
 
 output/
-images/
+
+# Ignorar todo el contenido dentro de los directorios en public/images/
+public/images/5001/*
+public/images/5012/*
+public/images/5014/*
+public/images/5017/*
+public/images/5018/*
+public/images/5019/*
+public/images/5021/*
+public/images/5022/*
+public/images/5023/*
+public/images/7011/*
+public/images/7012/*
+public/images/7014/*
+public/images/7016/*
+public/images/7021/*
+
+# No ignorar los propios directorios
+!public/images/5001/
+!public/images/5012/
+!public/images/5014/
+!public/images/5017/
+!public/images/5018/
+!public/images/5019/
+!public/images/5021/
+!public/images/5022/
+!public/images/5023/
+!public/images/7011/
+!public/images/7012/
+!public/images/7014/
+!public/images/7016/
+!public/images/7021/
