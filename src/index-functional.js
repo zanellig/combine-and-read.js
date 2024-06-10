@@ -2,7 +2,7 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 const Tesseract = require('tesseract.js');
-const TIENDAS = require('./tiendas.js');
+const { TIENDAS } = require('./tiendas.js');
 
 main().catch(console.error);
 
