@@ -19,7 +19,6 @@ Bienvenido al proyecto UXPos BackOffice OCR. Este proyecto ha sido desarrollado 
 - [Introducción](#introducción)
 - [Tabla de Contenidos](#tabla-de-contenidos)
 - [Pre-requisitos](#pre-requisitos)
-- [Instalación](#instalación)
 - [Uso](#uso)
   - [Antes de Ejecutar](#antes-de-ejecutar)
   - [Ejecutar el OCR](#ejecutar-el-ocr)
@@ -35,28 +34,6 @@ Bienvenido al proyecto UXPos BackOffice OCR. Este proyecto ha sido desarrollado 
 
 3. Todas las imágenes deben estar ubicadas en cada carpeta `public/images/${tienda}`.
 
-## Instalación
-
-1. **Instalar dependencias de Node.js**:
-
-   ```sh
-   npm install
-   ```
-
-2. **Instalar dependencias de Python**:
-
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. Configuración del entorno virtual de Python (opcional pero recomendado):
-
-   ```sh
-   python -m venv venv
-   source venv/bin/activate # En Windows usar `venv\Scripts\activate`
-   pip install -r requirements.txt
-   ```
-
 ## Uso
 
 ### Antes de ejecutar
@@ -64,20 +41,11 @@ Bienvenido al proyecto UXPos BackOffice OCR. Este proyecto ha sido desarrollado 
 > [!IMPORTANT]
 > Si estás utilizando un entorno bash como **msys2** o **UCRT64**, es preferible ejecutar este comando en PowerShell e instalar las dependencias de Python globalmente, ya que a veces podés encontrar errores inesperados.
 
-1. **Instalar las dependencias**:
+**Ejecutar el script completo**:
 
-   ```sh
-   npm install && pip install -r requirements.txt
-   ```
-
-2. **Ejecutar el OCR**:
-   ```sh
-   npm start
-   ```
-3. **Ejecutar el conversor a CSV**:
-   ```sh
-   npm run csv
-   ```
+```sh
+npm start
+```
 
 Todos los archivos estarán ubicados en `./public/output`.
 
@@ -108,7 +76,6 @@ Welcome to the UXPos BackOffice OCR project. This project has been developed to 
 - [Introduction](#introduction)
 - [Table of Contents](#table-of-contents)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Usage](#usage)
   - [Before You Run](#before-you-run)
   - [Running the OCR](#running-the-ocr)
@@ -124,28 +91,6 @@ Welcome to the UXPos BackOffice OCR project. This project has been developed to 
 
 3. All the images should be located in each `public/images/${tienda}` folder.
 
-## Installation
-
-1. **Install Node.js dependencies**:
-
-   ```sh
-   npm install
-   ```
-
-2. **Install Python dependencies**:
-
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. Setting up the Python virtual environment (optional but recommended):
-
-   ```sh
-   python -m venv venv
-   source venv/bin/activate # On Windows use `venv\Scripts\activate`
-   pip install -r requirements.txt
-   ```
-
 ## Usage
 
 ### Before you run
@@ -153,19 +98,9 @@ Welcome to the UXPos BackOffice OCR project. This project has been developed to 
 > [!IMPORTANT]
 > If you're using a bash environment like **msys2** or **UCRT64**, prefer running this command on PowerShell and install the required Python dependencies globally, as sometimes you'll encounter unexpected errors.
 
-1. **Install the dependencies**:
-
-   ```sh
-   npm install && pip install -r requirements.txt
-   ```
-
-2. **Run the OCR**:
+1. **Run the script**:
    ```sh
    npm start
-   ```
-3. **Run the CSV converter**:
-   ```sh
-   npm run csv
    ```
 
 All the files will be located in `./public/output`.
