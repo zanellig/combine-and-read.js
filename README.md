@@ -84,7 +84,7 @@ Todos los archivos estarán ubicados en `./public/output`.
 ## Notas
 
 - Si necesitás instalar Tesseract en tu sistema, seguí las instrucciones adecuadas para tu sistema operativo:
-  - **Windows**: DDescargá e instalá Tesseract desde [UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)
+  - **Windows**: Descargá e instalá Tesseract desde [UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki)
   - **MacOS**: Usá Homebrew:
     ```sh
     brew install tesseract
