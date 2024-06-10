@@ -223,3 +223,6 @@ public/images/7021/*
 !public/images/7014/.keep
 !public/images/7016/.keep
 !public/images/7021/.keep
+
+src/index-functional.js
+src/index-old.js
