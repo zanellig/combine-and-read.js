@@ -3,7 +3,6 @@ const Configuration = require('./config/Configuration');
 const DirectoryManager = require('./utils/DirectoryManager');
 const FileManager = require('./utils/FileManager');
 const ImageCombiner = require('./utils/ImageCombiner');
-const { TIENDAS } = require('./tiendas');
 
 class ProcessManager {
   constructor(tiendas) {
