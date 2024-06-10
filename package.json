@@ -1,9 +1,10 @@
 {
   "scripts": {
+    "install-deps": "pip install -r requirements.txt && npm install",
     "ocr": "node src/index.js",
     "csv": "node src/csv.js",
     "xslx": "python src/utils/CsvToXl.py",
-    "start": "pip install -r requirements.txt && npm install && npm run ocr && npm run csv && npm run xslx"
+    "start": "npm run install-deps && npm run ocr && npm run csv && npm run xslx"
   },
   "dependencies": {
     "tesseract.js": "^5.1.0"
