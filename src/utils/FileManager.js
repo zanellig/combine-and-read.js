@@ -6,7 +6,7 @@ class FileManager {
   static async readFile(folderPath) {
     const combinedImagePath = path.join(
       folderPath,
-      'grayscale_combined_image.png'
+      'grayscale_combined_image.png' // TODO: make this string available globally and have one source of truth
     );
     if (!fs.existsSync(combinedImagePath)) {
       console.error(
