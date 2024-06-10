@@ -12,7 +12,7 @@
 
 ## Introducción
 
-Bienvenido al proyecto UXPos BackOffice OCR. Este proyecto ha sido desarrollado para facilitar la extracción y conversión de datos de imágenes a formato CSV. Queremos agradecer especialmente a **[Santiago Candia](https://www.linkedin.com/in/santiago-candia-76708626b/)** y **[Federico Wahlers](https://www.linkedin.com/in/federico-wahlers-989627206/)** de [LinkSolution](https://www.linkedin.com/company/linksolution-srl/) por su invaluable apoyo y colaboración en este proyecto.
+Bienvenido al proyecto UXPos BackOffice OCR. Este proyecto ha sido desarrollado para facilitar la extracción y conversión de datos de imágenes a formato XLSX. Queremos agradecer especialmente a **[Santiago Candia](https://www.linkedin.com/in/santiago-candia-76708626b/)** y **[Federico Wahlers](https://www.linkedin.com/in/federico-wahlers-989627206/)** de [LinkSolution](https://www.linkedin.com/company/linksolution-srl/) por su invaluable apoyo y colaboración en este proyecto.
 
 ## Tabla de Contenidos
 
@@ -69,7 +69,7 @@ Todos los archivos estarán ubicados en `./public/output`.
 
 ## Introduction
 
-Welcome to the UXPos BackOffice OCR project. This project has been developed to facilitate the extraction and conversion of data from images to CSV format. We would like to extend our special thanks to **[Santiago Candia](https://www.linkedin.com/in/santiago-candia-76708626b/)** and **[Federico Wahlers](https://www.linkedin.com/in/federico-wahlers-989627206/)** from [LinkSolution](https://www.linkedin.com/company/linksolution-srl/) for their invaluable support and collaboration on this project.
+Welcome to the UXPos BackOffice OCR project. This project has been developed to facilitate the extraction and conversion of data from images to XLSX format. We would like to extend our special thanks to **[Santiago Candia](https://www.linkedin.com/in/santiago-candia-76708626b/)** and **[Federico Wahlers](https://www.linkedin.com/in/federico-wahlers-989627206/)** from [LinkSolution](https://www.linkedin.com/company/linksolution-srl/) for their invaluable support and collaboration on this project.
 
 ## Table of Contents
 
