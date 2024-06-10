@@ -12,7 +12,7 @@ def main():
 
     # Definir las rutas de los directorios
     base_dir = os.getcwd()
-    tienda_dir = os.path.join('..',base_dir,'public', 'images',directory_name)
+    tienda_dir = os.path.join(base_dir, 'public', 'images', directory_name)
     print(tienda_dir)
     combined_dir = os.path.join(tienda_dir, 'combined')
 
@@ -22,6 +22,10 @@ def main():
 
     # Leer los archivos en el directorio especificado
     file_list = [f for f in os.listdir(tienda_dir) if os.path.isfile(os.path.join(tienda_dir, f))]
+
+    # Filtrar solo archivos de imagen
+    image_extensions = ('.png', '.jpg', '.jpeg')
+    file_list = [f for f in file_list if f.lower().endswith(image_extensions)]
 
     # Ordenar los archivos (opcional: puedes ajustar el criterio de ordenación según tus necesidades)
     file_list.sort()
@@ -34,8 +38,11 @@ def main():
         # log file_name
         print(file_name)
         file_path = os.path.join(tienda_dir, file_name)
-        img = Image.open(file_path)
-        images.append(img)
+        try:
+            img = Image.open(file_path)
+            images.append(img)
+        except Exception as e:
+            print(f"Error al abrir la imagen {file_path}: {e}")
 
     # Concatenar las imágenes verticalmente
     widths, heights = zip(*(i.size for i in images))
