@@ -61,7 +61,7 @@ Bienvenido al proyecto UXPos BackOffice OCR. Este proyecto ha sido desarrollado 
 
 ### Antes de ejecutar
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > Si estás utilizando un entorno bash como **msys2** o **UCRT64**, es preferible ejecutar este comando en PowerShell e instalar las dependencias de Python globalmente, ya que a veces podés encontrar errores inesperados.
 
 1. **Instalar las dependencias**:
