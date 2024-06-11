@@ -22,7 +22,7 @@ Bienvenido al proyecto UXPos BackOffice OCR. Este proyecto ha sido desarrollado 
 - [Uso](#uso)
   - [Antes de Ejecutar](#antes-de-ejecutar)
   - [Ejecutar los modulos Independientemente](#ejecutar-los-modulos-independientemente)
-  - [Actualización de dependencias manualmente](#actualización-de-dependencias-manual)
+  - [Actualización manual de dependencias](#actualización-manual-de-dependencias-opcional)
 - [Notas](#notas)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 
@@ -69,7 +69,7 @@ npm run csv
 npm run xslx
 ```
 
-#### Actualización de dependencias manual (opcional)
+#### Actualización manual de dependencias (opcional)
 
 ```sh
 npm run install-deps
@@ -110,7 +110,7 @@ Welcome to the UXPos BackOffice OCR project. This project has been developed to 
 - [Usage](#usage)
   - [Before You Run](#before-you-run)
   - [Running Each Module Independently](#running-each-module-independently)
-  - [Updating Dependencies Manually](#updating-dependencies-manually)
+  - [Updating Dependencies Manually](#updating-dependencies-manually-optional)
 - [Notes](#notes)
 - [Project Structure](#project-structure)
 
